@@ -1,4 +1,4 @@
-# AutoFlow - Complete Setup Guide ✅
+# AutoFlow - Complete Setup Guide 
 
 ## System Status: FULLY OPERATIONAL
 
@@ -6,20 +6,20 @@ Your AutoFlow (Zapier-equivalent) workflow automation platform is now completely
 
 ---
 
-## 🎯 Quick Start
+##  Quick Start
 
 ### Backend Server (FastAPI)
-- **Status**: ✅ Running on `http://localhost:8000`
+- **Status**:  Running on `http://localhost:8000`
 - **Health Check**: `http://localhost:8000/health`
 - **API Docs**: `http://localhost:8000/docs` (Swagger UI)
 
 ### Frontend (React + Vite)
-- **Status**: ✅ Running on `http://localhost:5174`
+- **Status**:  Running on `http://localhost:5174`
 - **Open in Browser**: [http://localhost:5174](http://localhost:5174)
 
 ---
 
-## 📊 What's Already Set Up
+##  What's Already Set Up
 
 ### Database
 - ✅ SQLite database initialized: `data/platform.db`
@@ -51,7 +51,7 @@ Built-in apps with real API connectors:
 
 ---
 
-## 🚀 Running the System
+##  Running the System
 
 ### Option 1: Already Running (Background Processes)
 Both servers are already started:
@@ -75,7 +75,7 @@ npm run dev
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 ### Port Configuration
 - Backend: `8000` (change in `backend/main.py`)
@@ -90,7 +90,7 @@ Backend settings are in `backend/core/config.py`:
 
 ---
 
-## 🧪 Testing the API
+##  Testing the API
 
 ### List Workflows
 ```bash
@@ -109,7 +109,7 @@ curl http://localhost:8000/health
 
 ---
 
-## 📝 Example: Create a Workflow
+##  Example: Create a Workflow
 
 ### Via API
 ```bash
@@ -142,7 +142,7 @@ curl -X POST http://localhost:8000/api/workflows/ \
 
 ---
 
-## 🔐 Security Notes
+##  Security Notes
 
 ### Current Setup (Local Development)
 - ✅ Credentials encrypted at rest using Fernet
@@ -188,7 +188,7 @@ uvicorn main:app --port 8001
 
 ---
 
-## 📚 Key Files & Directories
+##  Key Files & Directories
 
 ```
 backend/
@@ -230,7 +230,7 @@ data/
 
 ---
 
-## 🎉 Next Steps
+##  Next Steps
 
 1. **Explore the Dashboard**
    - View sample workflows
@@ -255,7 +255,7 @@ data/
 
 ---
 
-## 📞 Support
+##  Support
 
 For issues or questions:
 1. Check the troubleshooting section above
@@ -265,7 +265,7 @@ For issues or questions:
 
 ---
 
-## 🗑️ Clean Start (if needed)
+##  Clean Start (if needed)
 
 To reset everything:
 ```bash
@@ -283,7 +283,7 @@ cd backend
 
 ---
 
-**System Status**: ✅ FULLY OPERATIONAL
+**System Status**:  FULLY OPERATIONAL
 
 **Last Updated**: March 19, 2026
 **Version**: 2.0.0
