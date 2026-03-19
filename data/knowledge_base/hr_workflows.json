@@ -1,0 +1,67 @@
+[
+  {
+    "id": "hr_001",
+    "title": "Employee Onboarding Workflow",
+    "department": "HR",
+    "type": "workflow",
+    "description": "Standard employee onboarding process",
+    "steps": [
+      "Send welcome email with start date and first-day instructions",
+      "Create employee profile in HRIS system",
+      "Set up IT accounts: email, Slack, laptop",
+      "Assign mandatory compliance training courses",
+      "Schedule orientation meeting with HR",
+      "Send benefits enrollment link within 30 days",
+      "30-day check-in with manager",
+      "90-day performance review setup"
+    ],
+    "tools": ["email_sender", "form_filler", "calendar_manager", "document_creator"],
+    "triggers": ["new_hire_accepted", "start_date_7_days_out"]
+  },
+  {
+    "id": "hr_002",
+    "title": "Leave Request Processing",
+    "department": "HR",
+    "type": "workflow",
+    "steps": [
+      "Receive leave request from employee",
+      "Check leave balance in HR system",
+      "Verify no conflicts with team calendar",
+      "Auto-approve if balance sufficient and no conflicts",
+      "Escalate to manager if over 5 days",
+      "Send confirmation email to employee",
+      "Update leave tracker",
+      "Notify payroll for unpaid leave"
+    ],
+    "tools": ["email_sender", "calendar_manager", "database_query", "notification_sender"]
+  },
+  {
+    "id": "hr_003",
+    "title": "Monthly Payroll Processing",
+    "department": "HR",
+    "type": "sop",
+    "best_practices": [
+      "Always verify employee count before processing",
+      "Cross-check hours with attendance system",
+      "Process deductions in correct order",
+      "Generate payslips 5 days before pay date",
+      "Keep audit trail of all changes"
+    ],
+    "tools": ["spreadsheet_processor", "report_generator", "pdf_extractor", "email_sender"]
+  },
+  {
+    "id": "hr_004",
+    "title": "Performance Review Automation",
+    "department": "HR",
+    "type": "template",
+    "steps": [
+      "Send review forms to employees 2 weeks before deadline",
+      "Send reminder to managers 1 week before",
+      "Collect completed self-assessments",
+      "Schedule 1:1 meetings with managers",
+      "Aggregate scores and generate reports",
+      "Store results in employee files",
+      "Trigger salary review process if eligible"
+    ]
+  }
+]

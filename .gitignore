@@ -1,0 +1,26 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Data (runtime)
+data/platform.db
+data/embeddings/
+data/voice_uploads/
+
+# Env
+backend/.env
+.env
+
+# OS
+.DS_Store
+Thumbs.db

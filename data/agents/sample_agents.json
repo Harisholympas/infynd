@@ -1,0 +1,84 @@
+[
+  {
+    "id": "sample-hr-001",
+    "name": "Employee Onboarding Orchestrator",
+    "department": "HR",
+    "role": "HR Manager",
+    "description": "Automates the full employee onboarding process from offer acceptance to day-90 review.",
+    "blueprint": {
+      "agent_name": "Employee Onboarding Orchestrator",
+      "department": "HR",
+      "role": "HR Manager",
+      "steps": [
+        "1. Receive new hire confirmation with start date and personal details",
+        "2. Create accounts: email, Slack, HRIS, access management system",
+        "3. Send personalized welcome email with first-day instructions and schedule",
+        "4. Provision laptop and hardware via IT ticketing system",
+        "5. Assign mandatory compliance and role-specific training courses",
+        "6. Schedule orientation, team intro meetings, and manager 1:1",
+        "7. Send benefits enrollment link and deadline reminder",
+        "8. Trigger 30-day check-in and 90-day review invite"
+      ],
+      "tools": [
+        "email_sender",
+        "form_filler",
+        "calendar_manager",
+        "document_creator",
+        "task_tracker"
+      ],
+      "triggers": [
+        "new_hire_confirmed",
+        "start_date_minus_7_days"
+      ],
+      "memory": true,
+      "metadata": {
+        "complexity": "high",
+        "frequency": "on-demand",
+        "estimated_time_saved_hours": 6
+      }
+    },
+    "status": "active",
+    "execution_count": 0,
+    "success_rate": 0.0
+  },
+  {
+    "id": "sample-fin-001",
+    "name": "Invoice Processing Router",
+    "department": "Finance",
+    "role": "Accountant",
+    "description": "Ingests invoices, extracts data via OCR, validates against POs, and routes for approval.",
+    "blueprint": {
+      "agent_name": "Invoice Processing Router",
+      "department": "Finance",
+      "role": "Accountant",
+      "steps": [
+        "1. Monitor invoice inbox for new submissions",
+        "2. Extract invoice data via PDF OCR",
+        "3. Match invoice to purchase order in ERP",
+        "4. Apply approval routing: auto <$500, manager >$500, CFO >$5000",
+        "5. Send approval request to designated approver",
+        "6. Schedule payment after approval",
+        "7. Update AP ledger and send vendor confirmation"
+      ],
+      "tools": [
+        "pdf_extractor",
+        "database_query",
+        "email_sender",
+        "spreadsheet_processor"
+      ],
+      "triggers": [
+        "invoice_email_received",
+        "daily_batch_9am"
+      ],
+      "memory": true,
+      "metadata": {
+        "complexity": "high",
+        "frequency": "daily",
+        "estimated_time_saved_hours": 3
+      }
+    },
+    "status": "active",
+    "execution_count": 0,
+    "success_rate": 0.0
+  }
+]

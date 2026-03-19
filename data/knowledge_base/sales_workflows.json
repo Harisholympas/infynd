@@ -1,0 +1,35 @@
+[
+  {
+    "id": "sales_001",
+    "title": "Lead Qualification Process",
+    "department": "Sales",
+    "type": "workflow",
+    "steps": [
+      "Capture lead from website/CRM/event",
+      "Score lead using BANT criteria",
+      "Research company on LinkedIn/web",
+      "Check for existing customer relationship",
+      "Assign to appropriate sales rep",
+      "Send personalized intro email within 2 hours",
+      "Schedule discovery call",
+      "Log all activity in CRM"
+    ],
+    "tools": ["email_sender", "database_query", "calendar_manager", "task_tracker"]
+  },
+  {
+    "id": "sales_002",
+    "title": "Proposal Generation",
+    "department": "Sales",
+    "type": "template",
+    "steps": [
+      "Pull customer requirements from CRM",
+      "Select appropriate product/service packages",
+      "Apply negotiated pricing",
+      "Generate professional PDF proposal",
+      "Get internal approval if over threshold",
+      "Send to customer via DocuSign",
+      "Schedule follow-up in 3 days",
+      "Track open/viewed status"
+    ]
+  }
+]

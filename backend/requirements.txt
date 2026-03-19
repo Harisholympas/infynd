@@ -1,0 +1,32 @@
+# Core framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.12
+
+# Database
+aiosqlite==0.20.0
+
+# Data validation
+pydantic==2.9.2
+pydantic-settings==2.5.2
+
+# HTTP client (used by all connectors)
+httpx==0.27.2
+PyPDF2==3.0.1
+
+# Scheduling (real cron/interval triggers)
+apscheduler==3.10.4
+
+# Encryption (credential vault)
+cryptography==43.0.1
+
+# Optional: Google Sheets connector
+# pip install google-api-python-client google-auth
+
+# Optional: Voice transcription
+# openai-whisper requires an ffmpeg binary on PATH.
+openai-whisper==20231117
+# pip install vosk
+
+# Optional: Vector search for RAG
+# pip install faiss-cpu numpy

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "fin_001",
+    "title": "Invoice Processing Workflow",
+    "department": "Finance",
+    "type": "workflow",
+    "steps": [
+      "Receive invoice via email or upload portal",
+      "Extract invoice data using OCR/PDF parser",
+      "Validate against purchase order in system",
+      "Route to approver based on amount thresholds",
+      "Under $500: auto-approve",
+      "Under $5000: department manager approval",
+      "Over $5000: CFO approval required",
+      "Schedule payment on due date",
+      "Update accounts payable ledger",
+      "Send payment confirmation to vendor"
+    ],
+    "tools": ["pdf_extractor", "database_query", "email_sender", "spreadsheet_processor"],
+    "triggers": ["invoice_received", "scheduled_daily"]
+  },
+  {
+    "id": "fin_002",
+    "title": "Monthly Financial Reconciliation",
+    "department": "Finance",
+    "type": "sop",
+    "best_practices": [
+      "Reconcile bank statements by 5th of each month",
+      "Flag discrepancies over $100",
+      "Generate variance report for management",
+      "Archive all supporting documents"
+    ],
+    "tools": ["spreadsheet_processor", "report_generator", "data_analyzer"]
+  },
+  {
+    "id": "fin_003",
+    "title": "Expense Report Processing",
+    "department": "Finance",
+    "type": "workflow",
+    "steps": [
+      "Employee submits expense report with receipts",
+      "OCR scan receipts and extract amounts",
+      "Verify against company expense policy",
+      "Flag policy violations",
+      "Send for manager approval",
+      "Process approved expenses in payroll",
+      "Reject non-compliant expenses with reason",
+      "Send reimbursement confirmation"
+    ]
+  },
+  {
+    "id": "fin_004",
+    "title": "Budget Variance Report",
+    "department": "Finance",
+    "type": "template",
+    "steps": [
+      "Pull actuals from accounting system",
+      "Compare against approved budget",
+      "Calculate variances by cost center",
+      "Highlight variances over 10%",
+      "Generate executive summary",
+      "Email report to department heads",
+      "Archive for audit trail"
+    ],
+    "tools": ["data_analyzer", "report_generator", "email_sender", "spreadsheet_processor"]
+  }
+]
