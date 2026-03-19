@@ -1,28 +1,28 @@
-# 🚀 Quick Start: AI-Powered Zapier for Agents
+#  Quick Start: AI-Powered Zapier for Agents
 
 Your platform is now fully equipped with enterprise AI agent automation. Here's how to get started:
 
-## ✅ What's New
+## What's New
 
 You now have:
-- 🎤 **Voice Command Interface** - Control agents with your voice
-- 📚 **Knowledge Base System** - Upload company docs, attach to agents
-- 🛠️ **50+ Department Tools** - Sales, HR, Marketing, Finance, Support
-- ⚡ **Auto-Configuration** - AI automatically selects & sequences tools
-- 💾 **Persistent Memory** - Agents remember context & resume tasks
-- 📊 **Agent Learning** - Tracks patterns, improves over time
+-  **Voice Command Interface** - Control agents with your voice
+-  **Knowledge Base System** - Upload company docs, attach to agents
+-  **50+ Department Tools** - Sales, HR, Marketing, Finance, Support
+-  **Auto-Configuration** - AI automatically selects & sequences tools
+-  **Persistent Memory** - Agents remember context & resume tasks
+-  **Agent Learning** - Tracks patterns, improves over time
 
-## 🎯 Three Ways to Use
+##  Three Ways to Use
 
-### 1️⃣ Voice Commands (Easiest)
+### 1️ Voice Commands (Easiest)
 ```
 Open: http://localhost:5174
 Navigate: Sidebar → AI Power (Zapier) → Voice Commands
 Speak: "Generate a report of our top leads and send them welcome emails"
-Result: ✅ Configured and executed automatically
+Result:   Configured and executed automatically
 ```
 
-### 2️⃣ Knowledge Base (Company Context)
+###  Knowledge Base (Company Context)
 ```
 Open: http://localhost:5174
 Navigate: AI Power (Zapier) → Knowledge Base
@@ -34,7 +34,7 @@ Navigate: AI Power (Zapier) → Knowledge Base
 3. Agents now have context for decisions
 ```
 
-### 3️⃣ Auto-Configuration (Full Control)
+###  Auto-Configuration (Full Control)
 ```
 Open: http://localhost:5174
 Navigate: AI Power (Zapier) → Auto-Config
@@ -47,7 +47,7 @@ Navigate: AI Power (Zapier) → Auto-Config
 4. Review & Execute with one click
 ```
 
-## 📱 The Dashboard
+##  The Dashboard
 
 ### Main Features:
 - **Dashboard** - System overview
@@ -60,7 +60,7 @@ Navigate: AI Power (Zapier) → Auto-Config
   - Auto-Configuration Builder
   - Tools Manager
 
-## 🔧 For Developers
+##  For Developers
 
 ### Test API Endpoints
 ```bash
@@ -131,7 +131,7 @@ async def main():
 asyncio.run(main())
 ```
 
-## 📊 System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -157,7 +157,7 @@ asyncio.run(main())
     └─────────────┴─────────────┴───────────┘
 ```
 
-## 🎓 Example Workflows
+##  Example Workflows
 
 ### Example 1: Lead Generation & Outreach
 ```
@@ -199,7 +199,7 @@ Tools Selected:
 Knowledge Base: Uses company onboarding guidelines from uploaded docs
 ```
 
-## 🔑 Key Capabilities
+##  Key Capabilities
 
 | Capability | How to Access | Benefit |
 |------------|--------------|---------|
@@ -211,7 +211,7 @@ Knowledge Base: Uses company onboarding guidelines from uploaded docs
 | Pattern Learning | Agent Statistics | Improves over time |
 | Department Focus | 5+ department tools | Specialized for your team |
 
-## ⚙️ Configuration
+##  Configuration
 
 ### Default System Settings:
 - **Voice Model:** Whisper (base size, offline)
@@ -221,7 +221,7 @@ Knowledge Base: Uses company onboarding guidelines from uploaded docs
 - **Agent State Storage:** SQLite (local database)
 - **Tool Confidence Threshold:** 70% for auto-execution
 
-## 📈 Next Steps
+##  Next Steps
 
 1. **Try Voice Command** 
    - Navigate to AI Power (Zapier) → Voice Commands
@@ -243,7 +243,7 @@ Knowledge Base: Uses company onboarding guidelines from uploaded docs
    - Review task history
    - Use suggestions to improve
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 **Microphone not working:**
 - Check browser permissions for microphone access
@@ -259,7 +259,7 @@ Knowledge Base: Uses company onboarding guidelines from uploaded docs
 - Provide more specific task descriptions
 - Add context from knowledge base
 
-## 📚 Complete Documentation
+##  Complete Documentation
 
 See `AI_POWER_ZAPIER_DOCUMENTATION.md` for:
 - Detailed API reference
@@ -268,12 +268,11 @@ See `AI_POWER_ZAPIER_DOCUMENTATION.md` for:
 - Integration examples
 - Security considerations
 
-## 🎉 You're Ready!
+##  You're Ready!
 
 Your platform is now a **full-featured AI agent automation system**.
 
 Start with the Voice Commands tab - it's the easiest way to experience the power.
 
 ```
-🎤 "What would you like me to automate?"
 ```
